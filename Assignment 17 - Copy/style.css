@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700&family=Glory:wght@100;200;300;400;500&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Ubuntu:ital@1&display=swap');
+
+* {
+    font-family: 'Gemunu Libre', sans-serif;
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(150deg, #0093e9, #80d0c7);
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fbfbfb;
+    height: fit-content;
+    width: 450px;
+}
+
+.add-todo {
+    padding: 3px;
+    border: 1px solid #0093e9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-todo-bar {
+    border: none;
+    width: 350px;
+    outline: none;
+    height: 35px;
+    font-size: 20px;
+}
+
+.creat {
+    background-color: #0093e9;
+    border: none;
+    width: 75px;
+    padding: 8px 16px;
+    color: #fbfbfb;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.options-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.options-bar .filter {
+    background-color: #fbfbfb;
+    border: none;
+    font-size: 20px;
+    padding: 0px 20px 5px 20px;
+    color: #323232;
+    ;
+}
+
+/* .filter:focus {
+    color: #0093e9;
+    border-bottom: 2px solid #0093e9;
+} */
+
+.task-container {
+    margin-top: 15px;
+}
+
+.task {
+    padding: 10px;
+    background-color: #fbfbfb;
+    box-shadow: 0 0 2px 2px #32323212;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 5px 0px;
+}
+
+.button-of-task {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 50%;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    border: 2px solid #0093e9;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.done-task {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 50%;
+    background-color: #0093e9;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    border: 2px solid #0093e9;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.data-and-time {
+    color: rgb(164, 164, 164);
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hide-with-class {
+    display: none;
+}
+
+.active-with-class {
+    display: block;
+}
+
+.border{
+    width: 120px;
+    height: 3px;
+    background-color: #0093e9;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
